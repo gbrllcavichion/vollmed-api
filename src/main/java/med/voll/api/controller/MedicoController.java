@@ -4,9 +4,8 @@ import jakarta.transaction.*;
 import jakarta.validation.*;
 import med.voll.api.medico.*;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.data.domain.*;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.*;
 
 @RestController
 @RequestMapping("medicos")
@@ -23,8 +22,8 @@ public class MedicoController {
     }
 
     @GetMapping
-    public List<DadosListagemMedico> listar() {
-        return repository.findAll().stream().map(DadosListagemMedico::new).toList();
+    public Page<DadosListagemMedico> listar(Pageable paginacao) {
+        return repository.findAll(paginacao).map(DadosListagemMedico::new);
     }
 
 }
