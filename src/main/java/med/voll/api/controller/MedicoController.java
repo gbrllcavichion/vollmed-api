@@ -2,6 +2,7 @@ package med.voll.api.controller;
 
 import jakarta.transaction.*;
 import jakarta.validation.*;
+import med.voll.api.domain.medico.*;
 import med.voll.api.medico.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
