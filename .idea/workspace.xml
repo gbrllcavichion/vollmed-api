@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User1\OneDrive\Documentos\Projetos\2700-spring-boot-aula_1\src\main\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="med.voll.api.infra.exception" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -122,7 +126,7 @@
       <workItem from="1682558315921" duration="1337000" />
       <workItem from="1682609406311" duration="2712000" />
       <workItem from="1682698376518" duration="9289000" />
-      <workItem from="1682771365280" duration="3713000" />
+      <workItem from="1682771365280" duration="4428000" />
     </task>
     <servers />
   </component>
