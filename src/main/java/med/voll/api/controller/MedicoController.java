@@ -9,6 +9,7 @@ import org.springframework.data.domain.*;
 import org.springframework.data.web.*;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.*;
 
 @RestController
 @RequestMapping("medicos")
@@ -19,9 +20,13 @@ public class MedicoController {
 
     @PostMapping
     @Transactional
-    public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroMedico dados) {
-        repository.save(new Medico(dados));
+    public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroMedico dados, UriComponentsBuilder uriBuilder) {
+        var medico = new Medico(dados);
+        repository.save(medico);
 
+        var uri =  uriBuilder.path("/medicos/{id}").buildAndExpand(medico.getId()).toUri();
+
+        return ResponseEntity.created(uri).body(new DadosDetalhamentoMedico(medico));
     }
 
     @GetMapping
@@ -35,7 +40,7 @@ public class MedicoController {
     @Transactional
     public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizaMedico dados) {
         var medico = repository.getReferenceById(dados.id());
-        medico.atualizarIndormacoes(dados);
+        medico.atualizarInformacoes(dados);
 
         return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
     }
