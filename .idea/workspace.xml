@@ -6,16 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/ConsultaController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/Consulta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/endereco/DadosEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/DadosEndereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/endereco/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosAtualizaMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosAtualizaMedico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosCadastroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosCadastroMedico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosListagemMedico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/Especialidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Especialidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/Consulta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/ConsultaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/DadosDetalhamentoConsulta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosCadastroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosCadastroMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/Paciente.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,8 +88,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="med.voll.api.controller" />
       <recent name="med.voll.api.medico" />
+      <recent name="med.voll.api.domain.paciente" />
+      <recent name="med.voll.api.controller" />
       <recent name="med.voll.api.endereco" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -129,7 +129,7 @@
       <workItem from="1682522958438" duration="1785000" />
       <workItem from="1682558315921" duration="1337000" />
       <workItem from="1682609406311" duration="2712000" />
-      <workItem from="1682698376518" duration="1571000" />
+      <workItem from="1682698376518" duration="2985000" />
     </task>
     <servers />
   </component>
