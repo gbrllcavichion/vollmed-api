@@ -1,6 +1,7 @@
 package med.voll.api.infra.security;
 
 import org.springframework.context.annotation.*;
+import org.springframework.http.*;
 import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.authentication.configuration.*;
 import org.springframework.security.config.annotation.web.builders.*;
@@ -20,6 +21,10 @@ public class SecurityConfigurations {
                 .disable()
                 .sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .and()
+                .authorizeRequests()
+                .antMatchers(HttpMethod.POST, "/login").permitAll()
+                .anyRequest().authenticated()
                 .and()
                 .build();
     }
