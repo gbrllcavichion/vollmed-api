@@ -67,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IT Projects/vollmed",
+    "last_opened_file_path": "D:/IT Projects/vollmed/src/main/resources/db/migration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +85,9 @@
       <recent name="med.voll.api.domain.usuario" />
       <recent name="med.voll.api.domain.paciente" />
       <recent name="med.voll.api.medico" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT Projects\vollmed\src\main\resources\db\migration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User1\OneDrive\Documentos\Projetos\2700-spring-boot-aula_1\src\main\java" />
@@ -132,7 +135,7 @@
       <workItem from="1682972722133" duration="680000" />
       <workItem from="1682986147473" duration="572000" />
       <workItem from="1683039137574" duration="222000" />
-      <workItem from="1683234724296" duration="1376000" />
+      <workItem from="1683234724296" duration="2125000" />
     </task>
     <servers />
   </component>
