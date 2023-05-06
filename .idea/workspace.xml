@@ -67,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IT Projects/vollmed/src/main/resources/db/migration",
+    "last_opened_file_path": "D:/IT Projects/vollmed",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,7 +135,8 @@
       <workItem from="1682972722133" duration="680000" />
       <workItem from="1682986147473" duration="572000" />
       <workItem from="1683039137574" duration="222000" />
-      <workItem from="1683234724296" duration="2125000" />
+      <workItem from="1683234724296" duration="2936000" />
+      <workItem from="1683395940241" duration="1205000" />
     </task>
     <servers />
   </component>
