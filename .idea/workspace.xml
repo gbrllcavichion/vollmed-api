@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +76,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "spring.configuration.checksum": "8a5da52ed126447d359e70c05721a8aa",
     "vue.rearranger.settings.migration": "true"
@@ -136,7 +142,8 @@
       <workItem from="1682986147473" duration="572000" />
       <workItem from="1683039137574" duration="222000" />
       <workItem from="1683234724296" duration="2936000" />
-      <workItem from="1683395940241" duration="2176000" />
+      <workItem from="1683395940241" duration="2933000" />
+      <workItem from="1683495817369" duration="3425000" />
     </task>
     <servers />
   </component>
