@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/ValidacaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/ValidacaoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" afterDir="false" />
-    </list>
+    <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +135,7 @@
       <workItem from="1683039137574" duration="222000" />
       <workItem from="1683234724296" duration="2936000" />
       <workItem from="1683395940241" duration="2933000" />
-      <workItem from="1683495817369" duration="364000" />
+      <workItem from="1683495817369" duration="1087000" />
     </task>
     <servers />
   </component>

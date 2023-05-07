@@ -19,7 +19,7 @@ public class AgendaDeConsultas {
     private PacienteRepository pacienteRepository;
 
     public void agendar(DadosAgendamentoConsulta dados) {
-        if (!pacienteRepository.existsById(dados.idPaciente())  {
+        if (!pacienteRepository.existsById(dados.idPaciente()))  {
             throw new ValidacaoException("Id do paciente informado não existe!");
         }
 
