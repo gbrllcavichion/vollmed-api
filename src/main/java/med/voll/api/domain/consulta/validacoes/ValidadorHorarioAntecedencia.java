@@ -9,7 +9,6 @@ import java.time.*;
 @Component
 public class ValidadorHorarioAntecedencia implements ValidadorAgendamentoDeConsulta{
 
-
     public void validar(DadosAgendamentoConsulta dados) {
         var dataConsulta = dados.data();
         var agora = LocalDateTime.now();
