@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/validacoes/ValidadorHorarioAntecedencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/validacoes/ValidadorHorarioAntecedencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/validacoes/ValidadorHorarioFuncionamentoClinica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/validacoes/ValidadorHorarioFuncionamentoClinica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/validacoes/s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/validacoes/s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,11 +87,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voll.api.domain.consulta.validacoes" />
       <recent name="med.voll.api.domain.consulta" />
       <recent name="med.voll.api" />
       <recent name="med.voll.api.domain.usuario" />
       <recent name="med.voll.api.domain.paciente" />
-      <recent name="med.voll.api.medico" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IT Projects\vollmed\src\main\resources\db\migration" />
@@ -142,6 +146,7 @@
       <workItem from="1683395940241" duration="2933000" />
       <workItem from="1683495817369" duration="3887000" />
       <workItem from="1683585695974" duration="20000" />
+      <workItem from="1683639986854" duration="1827000" />
     </task>
     <servers />
   </component>
