@@ -2,9 +2,11 @@ package med.voll.api.domain.consulta.validacoes;
 
 import med.voll.api.domain.*;
 import med.voll.api.domain.consulta.*;
+import org.springframework.stereotype.*;
 
 import java.time.*;
 
+@Component
 public class ValidadorHorarioAntecedencia implements ValidadorAgendamentoDeConsulta{
 
 
