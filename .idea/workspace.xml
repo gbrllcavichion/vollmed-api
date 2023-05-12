@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V6__create-table-consultas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V6__create-table-consultas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/ConsultaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/ConsultaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,7 @@
       <workItem from="1683730952676" duration="306000" />
       <workItem from="1683731283411" duration="604000" />
       <workItem from="1683766802569" duration="51000" />
-      <workItem from="1683922510748" duration="1505000" />
+      <workItem from="1683922510748" duration="1840000" />
     </task>
     <servers />
   </component>
