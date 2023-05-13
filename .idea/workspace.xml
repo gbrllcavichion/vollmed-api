@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="" />
+    <list default="true" id="e8a3a38b-6f33-448a-ae5c-d54f1e4ca01d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityFilter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +150,8 @@
       <workItem from="1683730952676" duration="306000" />
       <workItem from="1683731283411" duration="604000" />
       <workItem from="1683766802569" duration="51000" />
-      <workItem from="1683922510748" duration="4203000" />
+      <workItem from="1683922510748" duration="4433000" />
+      <workItem from="1684001767434" duration="178000" />
     </task>
     <servers />
   </component>
