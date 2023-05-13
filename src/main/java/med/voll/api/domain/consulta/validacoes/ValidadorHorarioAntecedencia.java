@@ -7,7 +7,7 @@ import org.springframework.stereotype.*;
 import java.time.*;
 
 @Component
-public class ValidadorHorarioAntecedencia implements ValidadorAgendamentoDeConsulta{
+public class ValidadorHorarioAntecedencia implements ValidadorAgendamentoDeConsulta {
 
     public void validar(DadosAgendamentoConsulta dados) {
         var dataConsulta = dados.data();
