@@ -1,4 +1,11 @@
 package med.voll.api.domain.consulta;
 
-public class DadosCancelamentoConsulta {
+import jakarta.validation.constraints.*;
+
+public record DadosCancelamentoConsulta(
+        @NotNull
+        Long idConsulta
+
+) {
+
 }
