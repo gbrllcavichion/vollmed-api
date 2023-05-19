@@ -7,8 +7,8 @@ import org.springframework.stereotype.*;
 
 import java.time.*;
 
-@Component
-public class ValidadorHorarioAntecedencia implements ValidadorAgendamentoDeConsulta, ValidadorCancelamentoDeConsulta {
+@Component("ValidadorHorarioAntecedenciaCancelamento")
+public class ValidadorHorarioAntecedencia implements ValidadorCancelamentoDeConsulta {
 
     @Autowired
     private ConsultaRepository repository;
