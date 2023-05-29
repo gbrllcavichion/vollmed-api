@@ -1,28 +1,14 @@
 package med.voll.api.domain.consulta.validacoes;
 
-import med.voll.api.domain.*;
-import med.voll.api.domain.consulta.*;
-import org.springframework.beans.factory.annotation.*;
-import org.springframework.stereotype.*;
+import med.voll.api.domain.ValidacaoException;
+import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
+import org.springframework.stereotype.Component;
 
-import java.time.*;
+import java.time.Duration;
+import java.time.LocalDateTime;
 
-@Component("ValidadorHorarioAntecedenciaCancelamento")
-public class ValidadorHorarioAntecedencia implements ValidadorCancelamentoDeConsulta {
-
-    @Autowired
-    private ConsultaRepository repository;
-
-    @Override
-    public void validar(DadosCancelamentoConsulta dados) {
-        var consulta = repository.getReferenceById(dados.idConsulta());
-        var agora = LocalDateTime.now();
-        var diferencaEmHoras = Duration.between(agora, consulta.getData()).toHours();
-
-        if (diferencaEmHoras < 24) {
-            throw new ValidacaoException("Consulta somente pode ser cancelada com antecedência mínima de 24h!");
-        }
-    }
+@Component
+public class ValidadorHorarioAntecedencia implements ValidadorAgendamentoDeConsulta {
 
     public void validar(DadosAgendamentoConsulta dados) {
         var dataConsulta = dados.data();
@@ -30,8 +16,8 @@ public class ValidadorHorarioAntecedencia implements ValidadorCancelamentoDeCons
         var diferencaEmMinutos = Duration.between(agora, dataConsulta).toMinutes();
 
         if (diferencaEmMinutos < 30) {
-            throw new ValidacaoException("Consulta deve ser agendada com antecedencia minima de 30 minutos");
+            throw new ValidacaoException("Consulta deve ser agendada com antecedência mínima de 30 minutos");
         }
-    }
 
+    }
 }
